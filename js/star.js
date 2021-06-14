@@ -10,8 +10,6 @@ constructor(x, y, size, velocity) {
     this.y = y; 
     this.size = size;
     this.velocity = velocity;
-	//console.table("estrela");
-	//console.table(this.x);
 } 
 
 

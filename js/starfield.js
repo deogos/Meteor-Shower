@@ -19,8 +19,8 @@ class Starfield
 	
 	this.width = 0;
 	this.height = 0;
-	this.minVelocity = 0;
-	this.maxVelocity = 2;
+	this.minVelocity = 50;
+	this.maxVelocity = 120;
 	this.qtdestars = 100;
 	this.intervalId = 0;
 
@@ -37,7 +37,6 @@ class Starfield
   
 inicializa()
 {
-	
 	var self = this;
 	 
 addEventListener('resize', function resize(event){
@@ -55,7 +54,6 @@ addEventListener('resize', function resize(event){
 }
 start()
 {
-	
 	this.stars = [];
 	for(var i=0; i<this.qtdestars; i++) {
 			var x = Math.random()*this.width;
