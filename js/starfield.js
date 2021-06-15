@@ -13,7 +13,7 @@ class Starfield
     intervalId;
 	ctx;
 	star;
-	
+ 
 	//Define o contexto e as variaveis
 	constructor(ctx) {
 		this.fps = 30;
@@ -50,8 +50,7 @@ class Starfield
 
 	start()
 	{
-
-		// Inicializa um array com as estrelas
+		// Declara um array para as estrelas
 		this.stars = [];
 
 		// Gera as estrelas
@@ -81,7 +80,6 @@ class Starfield
 		//Desenha o background
 		this.ctx.fillStyle = '#1e0045';
 		this.ctx.fillRect(0, 0, this.width, this.height);
-		
 		//Desenha as estrelas
 		this.ctx.fillStyle = '#ffffff';
 		for(var i=0; i<this.stars.length;i++) {
