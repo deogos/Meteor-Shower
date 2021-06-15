@@ -2,14 +2,16 @@ class Star{
 	x;
 	y;
 	size;
-	velocity;
+	velocityX;
+    velocityY;
 
-constructor(x, y, size, velocity) {
+constructor(x, y, size, velocityX, velocityY) {
 	
     this.x = x;
     this.y = y; 
     this.size = size;
-    this.velocity = velocity;
+    this.velocityX = velocityX;
+    this.velocityY = velocityY;
 } 
 
 
