@@ -13,6 +13,6 @@ constructor(x, y, size, velocityX, velocityY) {
     this.velocityX = velocityX;
     this.velocityY = velocityY;
 } 
-
+    
 
 }
